@@ -14,9 +14,33 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text(FlutterConfig.get("APP_NAME")),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Center(
+              child: Text(
+                FlutterConfig.get("APP_NAME"),
+              ),
+            ),
+            Center(
+              child: Text(
+                FlutterConfig.get("APP_ID"),
+              ),
+            ),
+            Center(
+              child: Text(
+                FlutterConfig.get("VER_NAME"),
+              ),
+            ),
+            Center(
+              child: Text(
+                FlutterConfig.get("VER_CODE"),
+              ),
+            ),
+          ],
         ),
       ),
     );
