@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_flavor_config">
+    package="vn.app.flavor">
    <application
         android:label="flutter_flavor_config"
         android:name="${applicationName}"

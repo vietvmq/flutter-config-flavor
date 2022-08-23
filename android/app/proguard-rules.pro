@@ -17,4 +17,4 @@
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
 
--keep class com.example.flutter_flavor_config.BuildConfig { *; }
+-keep class com.app.flavor.** { *; }
